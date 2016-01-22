@@ -33,7 +33,7 @@ public class HelloWorldREST {
 
 	    String url = null;
 	    Response response1 = null;
-	    String out = null;
+	    String out = "ASHISH + Code :-  ";
 	    
 	    log.info("ASDFGHJKLKJHGFDSASDFGHJKLJHGFDSA");
 	   
