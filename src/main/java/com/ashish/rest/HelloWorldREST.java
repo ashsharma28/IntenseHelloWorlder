@@ -82,8 +82,8 @@ public class HelloWorldREST {
 	      try 
 	      {
 		    	  
-		        String fname = "Ashish";
-		        String content = "BTech Student";
+						int fname = 2 ;
+            String content = "BTech Student";
 		        
 		        if (fname == "" || content == "") {
 		          out.concat(
@@ -92,9 +92,9 @@ public class HelloWorldREST {
 		        } 
 		        else 
 		        {
-		          String statement = "INSERT INTO entries (Test, content) VALUES( ? , ? )" ;
+		          String statement = "INSERT INTO entries (entryID, content) VALUES( ? , ? )" ;
 		          PreparedStatement stmt = conn.prepareStatement(statement);
-		          stmt.setString(1, fname);
+		          stmt.setInt(1, fname);
 		          stmt.setString(2, content);
 		          
 		          int success = 2;
