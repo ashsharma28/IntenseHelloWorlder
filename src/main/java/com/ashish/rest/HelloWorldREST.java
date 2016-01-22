@@ -82,7 +82,7 @@ public class HelloWorldREST {
 	      try 
 	      {
 		    	  
-						int fname = 2 ;
+						int fname = 3 ;
             String content = "BTech Student";
 		        
 		        if (fname == "" || content == "") {
